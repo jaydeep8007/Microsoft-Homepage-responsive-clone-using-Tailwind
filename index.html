@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Microsoft clone</title>
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <div class="navbar flex justify-between bg-white py-1">
+      <div class="leftnav flex items-center md:hidden">
+        <div class="hamberger md:hidden">
+          <img class="h-5 mx-3" src="photos/hamburger.png" alt="" />
+        </div>
+        <div class="md:hidden">
+          <img class="h-5" src="search.jfif" alt="" />
+        </div>
+      </div>
+      <div id="microsoft-support ">
+        <div class="md:order-2 flex">
+          <img class="py-2 w-32 md:w-28 md:ml-10 md:mr-3" src="photos/mslogo.png" alt="" />
+
+          <ul class="md:flex md:visible mx-4 space-x-4 hidden items-center text-sm">
+            <li class="hover:underline">
+              <a href="https://www.microsoft.com/en-us/microsoft-365/" target="_blank">Microsoft 365</a>
+            </li>
+            <li class="hover:underline">
+              <a href="https://www.microsoft.com/en-us/microsoft-teams/" target="_blank">Teams</a>
+            </li>
+            <li class="hover:underline">
+              <a href="https://www.microsoft.com/en-us/windows/" target="_blank">Windows</a>
+            </li>
+            <li class="hover:underline">
+              <a href="https://www.microsoft.com/en-us/surface/" target="_blank">Surface</a>
+            </li>
+            <li class="hover:underline">
+              <a href="https://www.xbox.com/" target="_blank">Xbox</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+
+      <div class="flex space-x-3">
+        <div class="invisible md:visible flex items-center">
+          <span class="mr-2 text-sm hover:underline cursor-pointer">image</span><img class="h-4 my-2" src="search.jfif"
+            alt="" />
+        </div>
+        <div class="md:order-3 flex items-center">
+          <span class="flex items-center invisible md:visible ml-3 mr-2 text-sm hover:underline cursor-pointer">cart
+          </span>
+          <img class="h-6" src="photos/cart.jpg " alt="" />
+          <span class="flex items-center invisible md:visible ml-6 text-sm hover:underline cursor-pointer">sign
+            in</span>
+          <img class="h-12 mr-8" src="photos/login1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="grey flex flex-col-reverse md:flex-row md:h-1/2 bg-[#f2f2f2]">
+      <div class="left flex flex-col justify-center items-start mx-10 md:mx-auto py-20 md:py-0 md:px-10">
+        <button class="bg-yellow-500 text-black rounded-sm md:mx-10 font-mono px-4 py-0.5 my-2">
+          New
+        </button>
+        <h1 class="md:px-10 text-3xl font-bold">Surface Laptop Go 3</h1>
+        <p class="w-3/4 md:px-10 md:w-[35vw] py-2 md:py-5">
+          An ultraportable, everyday laptop with the performance and battery
+          life you need to get it all done.
+        </p>
+        <button class="bg-blue-600 text-white rounded-sm md:mx-10 p-2 font-bold">
+          Learn more
+        </button>
+      </div>
+      <div class="right py-10 md:py-0">
+        <img class="px-32 md:py-20 md:mx-0 md:w-[64rem]" src="photos/laptop1.png" alt="" />
+      </div>
+    </div>
+    <div class="3rd flex flex-col md:flex-row space-x-10 space-y-6 md:justify-center">
+      <div></div>
+      <div class="flex flex-col items-center mx-2 space-x-2 font-medium cursor-pointer">
+        <img src="photos/pc1.webp" alt="" />
+        <span class="py-2 text-blue-700 underline">Choose your Microsoft 365</span>
+      </div>
+      <div class="flex flex-col items-center mx-2 space-x-2 font-medium cursor-pointer">
+        <img src="photos/pc2.webp" alt="" />
+        <span class="py-2 text-blue-700 underline">Explore Surface devices</span>
+      </div>
+      <div class="flex flex-col items-center mx-2 space-x-2 font-medium cursor-pointer">
+        <img src="photos/pc3.webp" alt="" />
+        <span class="py-2 text-blue-700 underline">Buy Xbox games and consoles</span>
+      </div>
+      <div class="flex flex-col items-center mx-2 space-x-2 font-medium cursor-pointer">
+        <img src="photos/pc4.webp" alt="" />
+        <span class="py-2 text-blue-700 underline">Get Windows 11</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
